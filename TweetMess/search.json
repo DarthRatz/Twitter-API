@@ -1,0 +1,74 @@
+{
+  "artists" : {
+    "href" : "https://api.spotify.com/v1/search?query=i+Kendrick+Lamar&offset=0&limit=1&type=artist&market=IE",
+    "items" : [ ],
+    "limit" : 1,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 0
+  },
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=i+Kendrick+Lamar&offset=0&limit=1&type=track&market=IE",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5uP9oyMK5lpzbB7K6UeT3X"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5uP9oyMK5lpzbB7K6UeT3X",
+        "id" : "5uP9oyMK5lpzbB7K6UeT3X",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/d22df8aa94c316fe3a5e700e3fc54b584937ce21",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/f4b70346a9ecdac98cd63cd0e07c0aa8381bc90d",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/0c18e530354361ce52cac93ef053b9844d628376",
+          "width" : 64
+        } ],
+        "name" : "To Pimp A Butterfly",
+        "type" : "album",
+        "uri" : "spotify:album:5uP9oyMK5lpzbB7K6UeT3X"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+        "id" : "2YZyLoL8N0Wb9xBt1NhZWg",
+        "name" : "Kendrick Lamar",
+        "type" : "artist",
+        "uri" : "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 336013,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "USUM71502509"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/08XAlO8SlW0MWgTDNYkG27"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/08XAlO8SlW0MWgTDNYkG27",
+      "id" : "08XAlO8SlW0MWgTDNYkG27",
+      "name" : "i",
+      "popularity" : 68,
+      "preview_url" : "https://p.scdn.co/mp3-preview/a22a33013170dcb9232cdc3c39de4639ed677386",
+      "track_number" : 15,
+      "type" : "track",
+      "uri" : "spotify:track:08XAlO8SlW0MWgTDNYkG27"
+    } ],
+    "limit" : 1,
+    "next" : "https://api.spotify.com/v1/search?query=i+Kendrick+Lamar&offset=1&limit=1&type=track&market=IE",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 82
+  }
+}
